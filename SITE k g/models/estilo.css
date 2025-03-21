@@ -1,8 +1,25 @@
 body {
-    background-color: white;
-
+    background-color: blue;
+    color: black;
 }
-
+.will {
+    height: 100px;
+    width: 100px;
+}
 header {
+    background-color: blue;
     color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.texto {
+    background-color: black;
+    margin-left: 19em;
+    color: white;
+}
+main {
+    background-color: white;
+}
+.profutos {
+    text-align: center;
 }
