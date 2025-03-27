@@ -1,25 +1,80 @@
 body {
-    background-color: blue;
-    color: black;
+    background-color: rgb(134, 5, 5);
+    color: rgb(0, 0, 0);
 }
 .will {
-    height: 100px;
-    width: 100px;
+    position: absolute;
+    top: 22;
+    left: 40;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
 }
 header {
-    background-color: blue;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgba(245, 245, 245, 0.699);
     font-size: 40px;
     text-align: center;
+    border-radius: 0 0 60px 60px;
 }
 .texto {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.658);
     margin-left: 19em;
     color: white;
+    width: 60%;
+    top: auto;
+    left: 28%;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 20px;
 }
 main {
-    background-color: white;
+    background-color: rgba(170, 170, 170, 0.274);
+    flex: 1;
 }
-.profutos {
+.produtos {
+        text-align: center;
+
+}
+.produtos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.produto {
     text-align: center;
+    margin: 10px;
+    width: 200px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.produto p {
+    margin-top: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.bluush {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+
+}
+.footer-content {
+    background-color: rgb(0, 0, 0);
+    color: rgb(165, 165, 165);
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    border-radius: 30px 30px 0 0;
 }
