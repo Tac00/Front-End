@@ -40,20 +40,37 @@ main {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 20px 0;
+    
 }
 .produto {
+    align-items: center;
     text-align: center;
-    margin: 10px;
-    width: 200px;
+    margin: 5%;
+    width: 10%;
     font-family: "Barlow Condensed", sans-serif;
+}
+.produto:hover {
+    background-color: rgba(255, 84, 84, 0.541);
+    border-radius: 10px;
 }
 
 .produto img {
+    position: relative;
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
-
+.produto img:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(145, 145, 145, 0,5);
+    border-radius: 10px;
+    pointer-events: none;
+}z
 .produto p {
     margin-top: 10px;
     font-size: 10px;
@@ -78,3 +95,4 @@ main {
     width: 96%;
     border-radius: 30px 30px 0 0;
 }
+
